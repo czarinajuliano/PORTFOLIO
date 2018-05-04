@@ -1,0 +1,72 @@
+﻿body{
+	background-image:url(../img/beans.jpg);
+}
+
+
+.header{
+	background-image:url(../img/header.jpg);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-family: "segoe ui";
+}
+.bean{
+	font-size: 30px;
+    font-weight: 300;
+    color: white;
+	margin-left: 10px;
+
+}
+.links{
+	font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding: 20px 20px 20px 20px; 
+  
+}
+a:link{
+	
+	text-decoration:
+	none;
+}
+.container{
+ 
+    border: 3px solid grey;
+    width: 700px;
+    height: 700px;
+    margin: 50px 25px 50px 285px;
+    color: white;
+    padding: 15px 45px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    background-color:black;
+    opacity: 1px;
+    
+}
+.contact{
+	text-align:justify; 
+	font-weight:400;
+	font-family:"Segoe UI";
+	letter-spacing:3px;
+	}
+
+.first{
+	text-align:right;
+	font-weight:400;
+	font-family:"Segoe UI";
+	letter-spacing:3px;
+	}
+	
+	
+	.second{
+	text-align:right;
+	font-weight:400;
+	font-family:"Segoe UI";
+	letter-spacing:3px;
+	}
+	
+	.third{
+	text-align: right;
+	font-weight:400;
+	font-family:"Segoe UI";
+	letter-spacing:3px;
+	}
