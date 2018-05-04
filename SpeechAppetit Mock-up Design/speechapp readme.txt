@@ -1,0 +1,2 @@
+"SpeechAPPetit" A thesis proposal by undergraduate students of West Visayas State University.
+The system will provide wireless transmission of order directly to the kitchen and cashier console through speech to text recognition. This project is consist of mock-up design of the mobile application.
