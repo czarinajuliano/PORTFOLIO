@@ -1,2 +1,2 @@
 # Portfolio
-Composition of projects and activities
+Composition of projects and activities.
