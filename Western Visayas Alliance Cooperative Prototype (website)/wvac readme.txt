@@ -1,0 +1,3 @@
+"Western Visayas Alliance Cooperative" This project focuses on the functionality and the design of the website.
+Western Visayas Alliance of Cooperatives offer different services to assist the affiliates develop themselves through entrepreneurship and capacity building.
+The website consist of 8 pages including the landing page, discover, contact and about the WVAC. Along with application for membership, loan application, membership type and organo which is a coffeeshop under the cooperative. 
