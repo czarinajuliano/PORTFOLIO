@@ -1,0 +1,55 @@
+﻿body{
+	background: black;
+    background-image:url(../img/flatlay9.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    padding-top: 40px;
+    font-family: "segoe ui";
+    }
+ 
+.pic{
+	
+	height: 600px;
+	width: 60%;
+	padding:15px 20px;
+	margin-left: 20px;
+	position: relative;
+
+	}
+#col2{
+	height: 700px;
+	width: 20%;
+	padding-right: 0px 10px;
+	margin-left: 200px;
+	position: absolute;
+}
+
+#basic{
+   	text-align: center;
+    border: 3px solid #985e6d;
+    width: 525px;
+    margin-left: 390px;
+    color: #192231;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    letter-spacing: 15px;
+
+}
+	
+.sub	
+{
+	text-align: center;
+ 	border: 3px solid #985e6d;;
+    width: 500px;
+    color: #4d2c3d;
+    font-size: 20px;    font-weight: 600;
+    margin-left: 390px;
+    padding: 5px 10px;    
+    letter-spacing: 5px;
+    float:none;
+   
+    
+  
+
+}

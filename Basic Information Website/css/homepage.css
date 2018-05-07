@@ -1,0 +1,103 @@
+﻿body{
+	background: denim;
+	background-image:url(../img/flatlay9.jpg);
+    background-repeat: no-repeat;
+    background-size: 1425px 800px;
+    padding-top: 40px;
+    font-family: "segoe ui";
+    
+    
+}
+
+.col1{
+    width: 1000px;
+    padding-left: 100px;
+    margin-left: 275px;
+}
+
+
+#title{
+    text-align: center;
+    border: 3px solid #985e6d;
+    width: 525px;
+    margin: 5px 5px 0px 0px;
+    color: #192231;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    
+}
+.basic
+{
+	text-align: left;
+	width: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #76323f;
+    margin: 10px 10px:
+    padding: 5px 0px;
+    text-decoration: none;	
+	
+}
+.skills
+{	width: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #76323f;
+    margin: 10px 10px:
+    padding: 5px 0px;
+    text-decoration: none;	
+    }
+
+.gallery
+{
+	
+	width:50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #76323f;
+    margin: 10px 10px:
+    padding: 5px 0px;
+    text-decoration: none;	
+    }
+
+
+#sub1{
+
+    color: #c09f80;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    padding: 10px 65px;
+    letter-spacing: 25px;
+  
+}    
+ 
+.ghost-button{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.ghost-button a{
+    color: #985e6d;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border: 3px #985e6d solid;
+    font-size: 30px;
+    padding: 20px 60px;
+    border-radius: 15px;
+}
+
+
+.ghost-button a:hover{
+    color: #efd9c1;
+    background-color: #b6a19e;
+    border: 3px #98878f solid;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    
+}    
+    

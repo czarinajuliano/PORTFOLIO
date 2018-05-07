@@ -1,0 +1,20 @@
+﻿body{
+	background: black;
+    background-image:url(../img/flatlay9.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    padding-top: 40px;
+    font-family: "segoe ui";
+    }
+#gal{
+	
+	text-align: center;
+    border: 3px solid #985e6d;
+    width: 525px;
+    margin-left: 390px;
+    color: #192231;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    letter-spacing: 15px;
+}

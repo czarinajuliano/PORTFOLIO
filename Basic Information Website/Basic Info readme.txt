@@ -1,0 +1,1 @@
+"Basic Information Website" This activity is consist of a basic homepage of a website and information and skills page. 
