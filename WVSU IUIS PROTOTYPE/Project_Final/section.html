@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/main.js"></script>
+<body>
+    
+    <div id="container6">
+        <div id="mySidenav" class="sidenav">
+          <a href="sign-in.html"><button class="log-out"></button></a>
+          <a href="profile.html"><img src class ="icon"></a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="calendar-home.html"><button class="hom">Home</button></a>
+          <hr class="divider1">
+          <a href="messages.html"><button class="msg">Messages</button></a>
+          <hr class="divider1">
+          <a href="section.html"><button class="sect">Section Offering</button></a>
+          <hr class="divider1">
+          <a href="registration.html"><button class="reg">Registration</button></a>
+          <hr class="divider1">
+          <a href="schedule.html"><button class="sched">Schedule</button></a>
+          <hr class="divider1">
+          <a href="Grades.html"><button class="grades">Grades</button></a>
+          <hr class="divider1">
+          <a href="account.html"><button class="acct">Account</button></a>
+          <hr class="divider1">
+          <a href="assessment.html"><button class="assess">Assessment</button></a>
+          <hr class="divider1">
+              </div>
+              <span class="menu" onclick="openNav()">&#9776;</span>
+              <div id="main">   </div>
+         
+              <form>
+                    <form>
+                            <div class="form-group row course">
+                              <label for="inputCourse3" class="col-2 col-sm-2 col-form-label course">Course</label>
+                              <div class="col-8 col-md-10 searchbox">
+                                <input type="text" class="form-control" id="inputCourse3" placeholder="Course">
+                              </div>
+                            </div>
+                           <div class="form-group row yearsect">
+                            <label for="inputCourse3" class="col-2 col-form-label yearsect">Year&Section</label>
+                            <div class="col-8 col-md-10 yearsectbox">
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                          <option selected>Choose...</option>
+                          <option value="1">3A</option>
+                          <option value="2">3B</option>
+                
+                        </select>
+                      </div>
+                      </div>
+                      <button class="btn btn-primary btn-view" type="view">View Section</button>
+                  </form>
+                  </form>
+                  <br>
+                  <br>
+          
+                       <div class="table-responsive">
+                            <table class="table table-sm table-hover">
+                     <form>
+                            <div class="form-group monday">
+                                    <label for="inputCourse3" class="col-2 col-form-label monday">MONDAY</label>          
+                                  </div>
+                                  <div class="form-group row">
+                                       <div class="row mbcomp">
+                                        <div class="col-6 col-sm-10 sched1">
+                                          <img class="sched1" src="assets/sched1.png">
+                                          <img class="sched1" src="assets/sched2.png">
+                                          <img class="sched1" src="assets/sched3.png">
+                                          
+                                        </div>
+                                   </div>
+                                   </div>            
+                    </form>
+                    <br>
+                    <br>
+                    <br>
+                    <form>
+                        <br>
+                            <div class="form-group tuesday">
+                                    <label for="inputCourse3" class="col-2 col-form-label tuesday">TUESDAY</label>          
+                                  </div>
+                                  <div class="form-group row">
+                                       <div class="row mbcomp">
+                                        <div class="col-6 col-sm-10 sched1">
+                                          <img class="sched1" src="assets/sched1.png">
+                                          <img class="sched1" src="assets/sched2.png">
+                                          <img class="sched1" src="assets/sched3.png">
+                                          
+                                        </div>
+                                   </div>
+                                   </div>
+                                   
+                                                 
+                    </form>
+                    </div>
+            
+            </div>
+    <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "320px";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+                 <script>
+                  function checkbox()
+                  document.getElementById("edit").innerHTML="messages2.0.html";
+                 </script>
+                 <script>$('body').scrollspy({ target: '#navbar-example' })</script>
+
+</body>
+</html>

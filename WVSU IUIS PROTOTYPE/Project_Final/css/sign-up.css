@@ -1,0 +1,170 @@
+body{
+    background: rgb(253, 253, 253);
+    font-family: raleway;
+
+}
+#container{
+    background-image: url(../assets/BG.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 540px;
+}
+::-webkit-input-placeholder {
+    color: rgb(214,208,214);
+}
+.form{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    background-image: url(../assets/username-icon.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 60px;
+    background-position-y: 10px;
+    
+}
+.form1{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-image: url(../assets/password.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 60px;
+    background-position-y: 18px;
+    
+}
+
+
+::-webkit-input-placeholder{
+    margin-left: 30px;
+    padding-left: 100px;
+    color:rgb(255, 255, 255);
+  
+    
+}
+
+.icon-user{
+    color: whitesmoke;
+    background-color: rgba(247, 247, 247, .4);
+    border: 0px solid transparent;
+    padding-left: 50px;
+    width: 180px;
+    height: 35px;
+    border-radius: 12px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.icon-pass{    
+    color: whitesmoke;
+    background-color: rgba(247, 247, 247, .4);
+    border: 0px solid transparent;
+    padding-left: 50px;
+    width: 180px;
+    height: 35px;
+    border-radius: 12px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.line{
+   
+    border: none;
+}
+.btn-get{
+    border-radius: 12px;
+    background-color: aquamarine;
+    border: 0px solid transparent;
+    width: 230px;
+    height: 35px;
+    border: solid transparent;
+    margin-left: 40px;
+    color:  rgb(157, 184, 241);
+    font-size: 12px;
+   letter-spacing: 1px;
+}
+.btn-get:hover{
+    color: rgb(214,208,214);
+}
+.fp{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    height: 0px;
+}
+.need{
+    padding-left:100px;
+    text-decoration: none;
+    font-size: 10px;
+    color: whitesmoke;
+    height: 0px;
+}
+.stud{
+    padding-left: 10px;
+   padding-top: 10px;
+   font-size: 10px;
+   color: grey;
+   margin-bottom: 10px;
+}
+.iuis{
+    padding-left:40px;
+    padding-top:20px;
+    padding-bottom: 0px;
+    letter-spacing: 35px;
+    font-size: 45px;
+    font-family: RALEWAY;
+    font-style: bold;
+    color: aliceblue;
+
+}
+#wrapper{
+margin-top: 20px;
+width: 100px;
+height: 100px;
+background-image: url(../assets/wvsu-logo.png);
+background-repeat: no-repeat;
+background-position-x: 125px;
+background-position-y: 26px;
+background-size: 110px;
+padding-left: 100px;
+
+
+}
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+
+.frame-border{
+	
+    width: 400px;
+    height: 600px;
+    outline: none;
+	border: solid 20px #000;
+    border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-o-border-radius: 40px;
+	-ms-border-radius: 40px;
+    border-bottom: solid 80px #000;
+    border-top: solid 60px #000;
+}
+/* ARE CLASS PARA SA PHONE TYPE BACKGROUNF */
+.main_frame.second  {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    border-radius: 40px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-o-border-radius:450x;
+	-ms-border-radius:40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+	height: 540px;
+	padding-left: 0px;
+}

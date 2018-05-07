@@ -1,0 +1,722 @@
+/* 
+navbar part */
+body{        
+    background-color: rgb(92, 92, 92);
+        font-family: Avenir;
+        position: relative;
+      
+}
+#container{
+    background-image: url(../assets/assessment.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 540px;
+}
+
+.log-out{
+    background-image: url(../assets/logout.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 250px;
+    height: 35px;
+    border: solid transparent;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-size: 50px;
+    cursor: pointer;
+    
+}
+.log-out:hover{
+    background-size: 53px;
+}
+.icon{
+    background-image: url(../assets/avatar.png);
+    background-repeat: no-repeat;
+    background-position-x: 140px;
+    background-position-y: 0px;
+    width: 200px;
+    height:60px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+.hom{
+    background-image: url(../assets/home.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 20px;
+    background-size: 30px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white; 
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+.hom:hover{
+    background-size: 33px;
+    color: rgb(241, 228, 228);
+}
+.msg{
+    background-image: url(../assets/messages.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 20px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white; 
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+.msg:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.sect{
+    background-image: url(../assets/section.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 30px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 15px;
+    background-position-y: 0px;
+    margin-top: 0px;
+    margin-left: 25px;
+    color: white;
+    padding-left: 44px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.sect:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.reg{
+    background-image: url(../assets/reg.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 30px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white;
+    padding-left: 20px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.reg:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.sched{
+    background-image: url(../assets/sched.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 25px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white;
+    padding-left: 3px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.sched:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.grades{
+    background-image: url(../assets/test.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 25px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: white;
+    padding-left: 0px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.grades:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.acct{
+    background-image: url(../assets/money.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 25px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: px;
+    margin-left: 30px;
+    color: white;
+    padding-left: 0px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.acct:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.assess{
+    background-image: url(../assets/assess.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px solid transparent;
+    width: 210px;
+    height: 25px;
+    background-size: 50px;
+    border: solid transparent;
+    background-position-x: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 30px;
+    color: white;
+    padding-left: 20px;
+    font-family: raleway;
+    font-size: 12px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    
+}
+.assess:hover{
+    background-size: 53px;
+    color: rgb(241, 228, 228);
+}
+.divider1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(226, 226, 226);
+    opacity: .5;
+    width: 230px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/* PARA SA SIDE NAV */
+.menu{
+    margin-top: 0px;
+    padding-left: 20px;
+    color: rgb(103, 252, 252);
+    cursor: pointer;
+    width: 40px;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: avenir-book;
+}
+.sidenav {
+    height: 540; /* 100% Full-height */
+    width:0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #4fa9cc; /* Black*/
+    overflow-x: hidden;
+    -ms-overflow-style: hidden; /* Disable horizontal scroll */
+    margin-top:0px;
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b4d2dd;
+    display:block;
+    transition: 0.3s;
+    overflow-x: hidden;
+    margin-top: 0px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .40s;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* para ni sa assessment */
+.regist{
+    color:white;
+    padding-left: 110px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: avenir;
+    font-size: 13px;
+}
+.sy{
+    color:white;
+    padding-left: 80px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: avenir;
+    font-size: 10px;
+}
+.col{
+    color: rgb(143, 143, 143);
+    margin-top: 9px;
+    margin-left: 20px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.enrolled{
+
+position: absolute;
+margin-left: 20px;
+padding-left: 8px;margin-top: 15px;padding-top: 2px;letter-spacing: 1px;
+width: 70px;
+height:25px;
+background: rgb(221, 214, 214);
+border: 0.904684px solid #FC0A0A;
+box-sizing: border-box;
+}
+.sched-container {
+    /* Rectangle 2 */
+    
+    position: absolute;
+    width: 320px;;
+    height: 20px;
+    padding-left: 25px;
+    padding-bottom:5px;
+    color: white;
+    background: rgb(221, 217, 217);
+    font-size: 15px;
+    
+    }
+    .it228{
+        background-image: url(../assets/it228.JPG);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .it229{
+        background-image: url(../assets/it229.JPG);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .it239{
+        background-image: url(../assets/it239.JPG);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .mob{
+        color: rgb(143, 143, 143);
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 12px;
+        padding-left: 0px;
+        padding-top: 5px;
+
+    }
+    .stud{
+        color: rgb(143, 143, 143);
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 12px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    #divider2{
+     margin-top: 0px;
+        color: grey;
+        width:  320px;
+        height: 0px;
+       
+    }
+    .course{
+        color: black;
+        margin:0px;
+    }
+    .row3{
+        height: 60px;
+    }
+    .row4{
+        height: 10px;
+        margin: 0px;
+    }
+    .total{
+        font-size: 12px;
+        color: rgb(87, 87, 87);
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left:15px;
+
+    }
+    .amount{
+      margin-top: 50px;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+    }
+    .mode{
+        color: rgb(15, 15, 15);
+        font-size: 10px;
+        margin-top: 70px;
+        height: 0px;
+    }
+    .twopayment{
+        color: grey;
+        font-size: 10px;
+        margin-top: 70px;
+        height: 0px;
+    }
+    .payment{
+        color: rgb(56, 56, 56);
+        font-size: 11px;
+        margin-top: 0px;
+        height: 0px; 
+    }
+  .enrollment{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin-top: 100px;
+    height: 0px; 
+    padding-left: 10px;
+
+  }
+  .midterm{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin-top: 0px;
+    height: 0px; 
+    padding-left: 10px;
+  }
+  .amt{
+    color: grey;
+    font-size: 10px;
+    margin-top: 100px;
+    height: 0px; 
+    padding-left: 10px;
+  }
+  .amt1{
+    color: grey;
+    font-size: 10px;
+    margin-top: 0px;
+    height: 0px; 
+    padding-left: 10px;
+  }
+  .amtdue{
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 125px; 
+      color: red;
+  }
+  .amt2{
+      margin-top: 125px;
+      color: red;
+  }
+  .grandtotal{
+      margin-top: 90px;
+      font-size: 15px;
+      font-weight: bold;
+      color: green;
+  }
+  .amt3{
+      margin-top: 90px; 
+      color: green;
+  }
+
+  #container1{
+      width: 320px;
+      height: 540px;
+      background-image: url(../assets/account-bg.png);
+  }
+  .acctstud{
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 12px;
+      margin-left: 0px;
+      font-size: 12x; 
+  }
+  .sched-container1 {
+    /* Rectangle 2 */
+    
+    position: absolute;
+    width: 290px;
+    height: 17px;
+    margin-top: 8px;
+    padding-top: 0px;
+    padding-left: 25px;
+    margin-left: 15px;
+    padding-bottom:15px;
+    color: rgb(58, 58, 58);
+    background: rgb(35, 186, 231);
+    font-size: 13px;
+    border-radius: 12px;
+    
+    }
+    .second{
+        background-image: url(../assets/2nd-v.png);
+        background-repeat: no-repeat;
+        background-size: 65px;
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+
+    }
+    .first{
+        background-image: url(../assets/1st-blue.png);
+        background-repeat: no-repeat;
+        background-size: 65px;
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }  .second2{
+        background-image: url(../assets/2nd-b.png);
+        background-repeat: no-repeat;
+        background-size: 65px;
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+
+    }
+    .first1{
+        background-image: url(../assets/1st-lblue.png);
+        background-repeat: no-repeat;
+        background-size: 65px;
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .bal{
+        color: black;
+        padding:0px;
+        margin:0px;
+        font-size: 10px;
+    }
+    .curbal{
+        
+            color: rgb(143, 143, 143);
+            margin-top: 10px;
+            margin-left: 0px;
+            font-size: 12px;
+            padding-left: 0px;
+            padding-top: 5px;
+    
+    }
+    #divider3{
+        margin-top: 0px;
+        color: grey;
+        width:  290px;
+        height: 0px;
+        margin-left: 30px;
+       
+    }
+    .rowbal{
+        height: 80px;
+        margin-top: 10px;
+    }
+    #container2{
+        width: 320px;
+        height: 540px;
+        background-image: url(../assets/grades-bg.jpg);
+    }
+    .grad{
+       padding-left: 20px;
+        color: black;
+       
+        margin-top: 15px;
+        
+    }
+  
+    .gr{
+        margin-left: 10px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .sched-container2 {
+        /* Rectangle 2 */
+        
+        position: absolute;
+        width: 200px;
+        height: 17px;
+        margin-top: 30px;
+        padding-top: 0px;
+        padding-left: 30px;
+        margin-left: 60px;
+        padding-bottom:15px;
+        color: rgb(252, 252, 252);
+        background: rgb(42, 168, 199);
+        font-size: 12px;
+        border-radius: 12px;
+        
+        }
+        .controller{
+            background-image: url(../assets/orange.png);
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 50px;
+            background-size: 30px;
+            padding-top: 50px;
+            background-position-x: 10px;
+            background-position-y: 20px;
+            
+        }
+        .controll{
+            margin-top: 40px;
+            padding-left: 50px;
+            height: 40px;
+           
+        }
+        .controll1{
+            margin-top: 0px;
+            padding-left: 50px;
+            height: 10px;
+           
+        }
+        .controll2{
+            margin-top: 40px;
+            padding-left: 50px;
+            height: 0px;
+           
+        }
+        .controll3{
+            margin-top: 50px;
+            padding-left: 50px;
+            height: 10px;
+           
+        }
+        .controll4{
+            margin-top: 30px;
+            padding-left: 50px;
+            height: 10px;
+           
+        }
+        .sub{
+            color: rgb(190, 21, 21);
+            margin-top: 10px;
+            margin-left: 0px;
+            font-size: 12px;
+            padding-left: 5px;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+        .subject{
+            color: black;
+            margin:0px;
+            font-size: 10px;
+        }
+        .pass{
+            font-size: 10px;
+            color: black;
+            padding-left: 0px;
+            margin-left: 0px; 
+        }
+        .pass1{
+            font-size: 10px;
+            color: black;
+            padding-left: 0px;
+            margin-left: 33px; 
+        }
+        .pass2{
+            font-size: 10px;
+            color: black;
+            padding-left: 0px;
+            margin-left: 30px; 
+        }
+        .pass3{
+            font-size: 10px;
+            color: black;
+            padding-left: 0px;
+            margin-left: 73px; 
+        }
+        .pass4{
+            font-size: 10px;
+            color: black;
+            padding-left: 0px;
+            margin-left: 23px; 
+        }
+        .green{
+            color: green;
+        }
+        #divider4{
+            margin-top: 0px; 
+            margin-left: 10px;
+               color: grey;
+               width:  230px;
+               height: 0px;
+              
+           }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/main.js"></script>
+<body>
+    
+    <div id="container7">
+             
+            <a class="per" href="profile.html"><span class="menu" onclick="openNav()">&times;     Personal 
+                 </span></a>
+              <div id="main">   </div>
+            
+              <div class="row addbtn">
+                  <div class="col-10">
+                     <button onclick="choosefile()" class="add"></button>
+                    
+                  </div>
+              </div>
+              <div class="row personal">
+                    <form>
+                            <div class="form-row">
+                              <div class="col-10 personal">
+                                    <label class="name" for="inputName">Name</label>
+                                <input type="text" class="nametext" placeholder="Czarina Juliano">
+                                <hr class="divider2">
+                              </div>
+                              <div class="col-10 ">
+                                <label class="email" for="inputEmail">Email</label>
+                                <input type="Email" class="nametext" id="inputEmail4" placeholder="Email">
+                                 <hr class="divider2">
+                              </div>
+                              <div class="col-10">
+                                    <label class="password" for="inputPassword4">Password</label>
+                                    <input type="password"class="nametext" id="inputPassword4" placeholder="Password">
+                                     <hr class="divider2">
+                                  </div>
+                            <div class="col-10">
+                              <label class="birthday" for="inputBirthday">Birthday</label>
+                              <input type="text" class="nametext" id="inputBirthday" placeholder="March 07,1997">
+                               <hr class="divider2">
+                            </div>
+                              <div class="col-10">
+                                <label class="about" for="About">About</label>
+                                <input type="text"class="nametext1" id="inputAbout" placeholder="Password">
+                                 <hr class="divider2">
+                              </div>
+                              </div>
+                          </form>
+                  </div>
+                  <button class="confirmation">CONFIRM</button>
+           
+    </div>
+
+    <div id="choosefile">
+              <div class="form-control-file">
+            </div>
+        </div>
+    <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+<script>
+     function choosefile()
+     document.getElementById("choosefile").style.width="50%";
+            </script>
+                 
+</body>
+</html>
